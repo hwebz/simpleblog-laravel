@@ -1,0 +1,9 @@
+MySQL create db and new user
+  - mysql -u root -p
+  - create database simpleblog;
+  - grant all privileges on simpleblog.* to jimidark@localhost identified by '123456'
+
+To run Seeder from database/ using cmd: php artisan db:seed --class=ArticlesTableSeeder
+
+To use HTML Illuminate, use cmd: composer require illuminate/html
+And after that, include that library in config/app.php file
